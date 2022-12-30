@@ -8,5 +8,5 @@ This repo contains a keymapping for the Charybdis Nano (CNano) with the intentio
 # Setup
 ```bash
 git clone --recursive https://github.com/josephdcaputo/qmk_firmware.git \
-cd qmk_firmware \
-util/docker_build.sh bastardkb/charybdis/3x5/v2/splinky_3:vial
+&& cd qmk_firmware \
+&& util/docker_build.sh bastardkb/charybdis/3x5/v2/splinky_3:vial
