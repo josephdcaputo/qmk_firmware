@@ -1,0 +1,7 @@
+FROM qmkfm/qmk_cli
+
+VOLUME /qmk_firmware
+WORKDIR /qmk_firmware
+
+CMD qmk setup /qmk_firmware \
+&&  qmk compile -kb bastardkb/charybdis/3x5/v2/splinky_3 -km vial
